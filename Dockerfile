@@ -28,4 +28,4 @@ RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
 # Start app
-CMD ["python3", "main.py"]
+CMD ["python3", "-m", "devgagan"]
